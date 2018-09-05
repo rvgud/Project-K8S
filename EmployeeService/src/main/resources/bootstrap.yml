@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: emp-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+server:
+      port: 7000 
